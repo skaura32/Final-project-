@@ -121,17 +121,24 @@ nav ul li a:hover {
   transform: scale(1.05); 
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); 
 }
-.download-link {
-  color: #0288d1; 
-  text-decoration: none;
-  font-size: 1.2rem;
+
+.cv-download {
+  margin-top: 40px; 
+}
+
+
+.cv-download a {
+  font-size: 16px; 
+  color: #ff4d88; 
+  text-decoration: none; 
   font-weight: bold;
   transition: color 0.3s ease;
 }
 
-.download-link:hover {
-  color: #0277bd; 
+.cv-download a:hover {
+  color: #ff1f5e; 
 }
+
 
 
 #skills {
@@ -212,7 +219,7 @@ nav ul li a:hover {
   width: 100%;
   height: 100%;
   overflow: auto;
-  background-color: rgba(0, 0, 0, 0.8); /* Black with transparency */
+  background-color: rgba(0, 0, 0, 0.8); 
 }
 
 #gallery {
