@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sejal</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="home" class="fade-in">
+        <div class="intro">
+            <h1>Hi, I'm Sejal</h1>
+            <p><b>Welcome to my portfolio. I'm a software developer passionate about building innovative solutions.</b></p>
+            <a href="#about" class="cta-button">Learn More</a>
+        </div>
+    </section>
+
+  
+    <section id="about" class="fade-in">
+        <h2>About Me</h2>
+        <p><b>I am a software developer with experience in languages like C++ , PYTHON . I'm passionate about technology and always eager to learn. My hobbies and interests include <b>photography </b> and <b>listening to music</b>. Im open to opportunities. I like to play games and to musical instruments. I am State-Gold medalist in Taekwondo. </b></p>
+        <div class="about-gallery">
+            <p><a href="https://drive.google.com/drive/folders/1KESdnTjmW5qfcJXaNhhlvJc7Sj4myruE" download class="download-link">Download My CV</a></p>
+            <img src="me1.jpg" alt="Sejal's Profile Picture" />
+            <img src="https://cdni.iconscout.com/illustration/premium/thumb/custom-coding-7220014-5891013.png" alt="Illustration" />
+        </div>
+    </section>
+
+   
+    <section id="skills" class="fade-in">
+        <h2>Skills</h2>
+        <div class="skills-container">
+            <div class="skill">
+                <h3>HTML</h3>
+                <div class="progress-bar"><div class="html"></div></div>
+            </div>
+            <div class="skill">
+                <h3>CSS</h3>
+                <div class="progress-bar"><div class="css"></div></div>
+            </div>
+
+            <div class="skill">
+                <h3>JavaScript</h3>
+                <div class="progress-bar"><div class="js"></div></div>
+            </div> 
+            <div class="skill">
+                <h3>PYTHON</h3>
+                <div class="progress-bar"><div class="pyth"></div></div>
+            </div>
+            <div class="skill">
+                <h3>C++</h3>
+                <div class="progress-bar"><div class="c"></div></div>
+            </div>
+        </div>
+    </section>
+
+  
+    <section id="projects" class="fade-in">
+        <h2>My Projects</h2>
+        <div class="projects-container">
+            <div class="project-card">
+                <h3>Pictures I have clicked so far</h3>
+                <p>Here are some pictures from my camera.</p>
+                <a href="gallery.html" class="view-details">View Pictures</a>
+            </div>
+
+            <div class="project-card">
+                <h3><b>Connect 3</b></h3>
+                <p>Take a break while playing this game.</p>
+                <a href="connect.html" class="view-details">take me to the game</a>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="contact" class="fade-in">
+        <h2>Contact Me</h2>
+        <form id="contact-form" action="mailto:sejal.kaura32006@gmail.com" method="post" enctype="text/plain">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+            <div id="form-response" class="hidden">Thank you for your message!</div>
+            
+        
+        </form>
+    </section>
+
+
+    <footer>
+        <p> <a href="https://github.com/skaura32" target="_blank">GitHub</a> | <a href="https://www.linkedin.com/in/sejal-b45080327/" target="_blank">LinkedIn</a></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
